@@ -2,6 +2,9 @@
 
 service: my-express-application
 
+plugins:
+  - serverless-offline
+  
 custom:
   tableName: 'users-table-${self:provider.stage}'
 
